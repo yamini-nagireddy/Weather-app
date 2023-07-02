@@ -1,5 +1,5 @@
 export const GEO_API_URL = "https://wft-geo-db.p.rapidapi.com/v1/geo";
-//enter rapi api key in the below "X-RapidAPI-Key"
+//enter rapid api key in the below "X-RapidAPI-Key" from GEO API site
 export const geoApiOptions = {
   method: "GET",
   headers: {

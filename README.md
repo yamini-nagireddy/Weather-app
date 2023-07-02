@@ -16,3 +16,8 @@ JavaScript \
 React \
 OpenWeatherMap API \
 GeoDB API 
+
+## Note:
+Following are the links for OpenWeatherMap API and GeoDB API - 
+1. OpenWeatherMap API https://openweathermap.org/ 
+2. GeoDB API: https://rapidapi.com/wirefreethought/api/geodb-cities/

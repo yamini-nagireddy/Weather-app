@@ -21,3 +21,5 @@ GeoDB API
 Following are the links for OpenWeatherMap API and GeoDB API - 
 1. OpenWeatherMap API https://openweathermap.org/ 
 2. GeoDB API: https://rapidapi.com/wirefreethought/api/geodb-cities/
+
+Visit the above urls and update the keys in api.js 

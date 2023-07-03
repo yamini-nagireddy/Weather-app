@@ -23,3 +23,7 @@ Following are the links for OpenWeatherMap API and GeoDB API -
 2. GeoDB API: https://rapidapi.com/wirefreethought/api/geodb-cities/
 
 Visit the above urls and update the keys in api.js 
+
+### Live version of the app
+https://weather-update-app-yn.netlify.app/
+

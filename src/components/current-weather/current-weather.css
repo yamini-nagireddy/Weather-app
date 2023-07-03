@@ -1,11 +1,11 @@
 .weather-container {
   width: 300px;
-  border-radius: 6px;
-  box-shadow: 10px -2px 10px 2px rgb(0 0 0 / 30%);
-  color: #fff;
-  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: #333;
+  background-color: #f8f8f8;
   margin: 20px auto 0 auto;
-  padding: 0 20px 20px 20px;
+  padding: 20px;
 }
 
 .top,
@@ -16,27 +16,27 @@
 }
 
 .city {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
-  line-height: 1;
   margin: 0;
   letter-spacing: 1px;
 }
+
 .weather-description {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1;
-  margin: 0;
+  margin: 5px 0;
   letter-spacing: 1px;
 }
+
 .weather-icon {
   width: 100px;
+  height: 100px;
 }
 
 .temperature {
   font-weight: 600;
-  font-size: 70px;
-  width: auto;
+  font-size: 72px;
   margin: 10px 0;
   letter-spacing: -5px;
 }
@@ -44,25 +44,39 @@
 .details {
   width: 100%;
   padding: 20px;
+  border-top: 1px solid #ccc;
 }
 
 .parameter-row {
   display: flex;
   justify-content: space-between;
+  margin: 5px 0;
 }
 
 .parameter-label {
   text-align: left;
-  font-weight: 400;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .parameter-value {
   text-align: right;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
 }
 
-.parameter-label.top{
-    border-bottom: 1px solid #fff;
+.parameter-label.top {
+  border-bottom: 2px solid #333;
+}
+
+/* Add some animation */
+.weather-container {
+  transition: all 0.3s ease;
+}
+
+.weather-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  color: #333;
 }
